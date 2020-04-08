@@ -1,0 +1,141 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+body{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+     
+    
+    min-height:100vh;
+    background:url("6.jpg") center;
+    background-size: cover;
+    
+    
+}
+
+.cards{
+    border:2px solid #000;
+    text-align: center;
+    box-shadow: 2px 2px 2px 2px #000;
+    border-radius:14px;
+    height:550px;
+    background-color: #fff;
+    
+}
+.heading{
+    height:80px;
+    background-color: #ff4c68;
+}
+
+.content{
+    
+    padding:50px;
+}
+.content label{
+    font-family: "Ubuntu";
+    font-weight: 500;
+    font-size: 30px;
+    letter-spacing: 2px;
+    text-shadow: 1px #000;
+    padding:20px;
+}
+
+.icon{
+    font-size: 30px;
+    color:#FF0000;
+    padding: 20px;
+}
+.content input{
+    font-size: 30px;
+    font-family: "Montserrat-Black";
+    
+}
+.content input:hover,.content input:active,.content input:focus{
+    box-shadow: 2px 2px 2px 2px #000;
+    border-radius: 10px;
+}
+
+.primary{
+    padding:20px;
+    text-transform: capitalize;
+    text-align: center;
+    font-weight: 500;
+    font-family: "Montserrat",sans-serif;
+    font-size: 35px;
+    letter-spacing: 2px;
+    border-radius: 10px;
+    margin-top: 80px;
+    width:30%;
+    color: #fff;
+    background-color: #ff4c68;
+    cursor: pointer;
+    
+}
+.primary:hover,.primary:focus,.primary:active,.primary:visited{
+    background-color: #fff;
+    color:#ff4c68;
+    box-shadow: 2px 2px 2px 2px #FF0000;
+    font-weight: 800;
+    transition: cubic-bezier(1, 0, 0, 1) 350ms;
+    border:2px #000;
+transition:all 350ms;
+    
+}
+
+.contents{
+    width:300px;
+    margin: 30px auto;
+    
+}
+.contents p{
+    border:2px #000;
+    
+    text-align: center;
+    background-color: #EEE8AA;
+    font-size: 30px;
+    font-weight:lighter;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+@media(max-width: 1024px){
+.content form .icon{
+display:block;}
+.content{
+padding:30px;}
+.primary{
+	margin-top:50px;
+}
+
+}
+
+
+
+.text{
+    color:red;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: "Ubuntu";
+    margin-bottom: 20px;
+    visibility: hidden;
+    animation: sm 5000ms ease-in-out; 
+}
+
+.texts{
+    visibility: visible;
+}
+
+@keyframes sm{
+    0%{
+        color:red
+    }
+    50%{
+        color:pink;
+    }
+    100%{
+       
+        color: red;}
+}
