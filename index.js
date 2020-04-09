@@ -21,7 +21,7 @@ $(".primary").on("click",function(){
        sound.play();
         var b=(Math.floor(Math.random()*11)+90)+"%";
       $(".pa").html(b);
-      console.log( $("small").css("visibility","hidden"))
+      console.log( $("small").css("visibility","hidden"));
       $("input").css("background-color","white");
 }
 
