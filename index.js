@@ -17,7 +17,7 @@ $(".primary").on("click",function(){
     
 }
     
-   else if(x[0]=="c"){
+   else if(x[0]=='c'){
        sound.play();
         var b=(Math.floor(Math.random()*11)+90)+"%";
       $(".pa").html(b);
